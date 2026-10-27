@@ -1,0 +1,26 @@
+{
+  "text_emb_dim": 64,
+  "cat_emb_dim": 128,
+  "normalize_text": false,
+  "activation": "selu",
+  "dropout": 0.0013172639834241986,
+  "text_out_dim": 8,
+  "cat_out_dim": 4,
+  "hidden1": [
+    256,
+    128
+  ],
+  "hidden2": [
+    128,
+    64
+  ],
+  "lr": 0.005293297998444228,
+  "batch_size": 256,
+  "weight_decay": 3.4483621694375005e-05,
+  "best_tuning_auc": 0.7866515895192212,
+  "best_epoch": 21,
+  "n_trials": 40,
+  "max_epochs": 40,
+  "early_stop_patience": 10,
+  "lr_scheduler_patience": 100
+}

@@ -1,0 +1,42 @@
+{
+  "tuning_fold": 0,
+  "outer_trials_done": 1,
+  "inner_trials": 100,
+  "max_estimators": 4000,
+  "early_stopping_rounds": 100,
+  "importance_path": "D:\\DS_Proj\\importance_df.csv",
+  "top_params": [
+    {
+      "rank": 0,
+      "outer_trial": 0,
+      "val_auc": 0.7983215975567883,
+      "best_estimators": 904,
+      "preprocessing": {
+        "date_days": 13,
+        "text_min_count_train": 435
+      },
+      "inner_trial": 94,
+      "jdf": {
+        "dp": 0.01776521157190518,
+        "th_num_train": 0.010829244816237956,
+        "th_num_test": 0.0013148180215723049,
+        "th_cat_train": 0.0035524126232603192,
+        "th_cat_test": 0.0010030811989344564
+      },
+      "fid": {
+        "n_worst": 150
+      },
+      "xgb": {
+        "objective": "binary:logistic",
+        "learning_rate": 0.02043986587702566,
+        "max_depth": 10,
+        "min_child_weight": 45.505711836027224,
+        "subsample": 0.9739115600237975,
+        "colsample_bytree": 0.3586114583603864,
+        "gamma": 0.02382195510531528,
+        "reg_alpha": 0.07874092801695182,
+        "reg_lambda": 0.0001462793376874774
+      }
+    }
+  ]
+}

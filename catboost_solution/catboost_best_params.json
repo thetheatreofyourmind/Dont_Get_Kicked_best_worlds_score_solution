@@ -1,0 +1,82 @@
+[
+  {
+    "rank": 1,
+    "roc_auc": 0.8020788012318757,
+    "trial_number": 68,
+    "params": {
+      "iterations": 3000,
+      "learning_rate": 0.02,
+      "depth": 7,
+      "l2_leaf_reg": 9.77800247823189,
+      "random_strength": 0.08096933620435773,
+      "border_count": 34,
+      "rsm": 0.966819040926084,
+      "one_hot_max_size": 5,
+      "model_size_reg": 0.4768577125444614
+    }
+  },
+  {
+    "rank": 2,
+    "roc_auc": 0.8019109131189895,
+    "trial_number": 82,
+    "params": {
+      "iterations": 3100,
+      "learning_rate": 0.009235689416640892,
+      "depth": 8,
+      "l2_leaf_reg": 26.934453579027966,
+      "random_strength": 0.004474943127809992,
+      "border_count": 33,
+      "rsm": 0.9889472888288197,
+      "one_hot_max_size": 2,
+      "model_size_reg": 0.5373674113492836
+    }
+  },
+  {
+    "rank": 3,
+    "roc_auc": 0.8017380640820833,
+    "trial_number": 65,
+    "params": {
+      "iterations": 2400,
+      "learning_rate": 0.008553269927794479,
+      "depth": 8,
+      "l2_leaf_reg": 7.1730162965294735,
+      "random_strength": 0.038635496686691286,
+      "border_count": 37,
+      "rsm": 0.9868755059383484,
+      "one_hot_max_size": 2,
+      "model_size_reg": 1.4627606580686006
+    }
+  },
+  {
+    "rank": 4,
+    "roc_auc": 0.8015782265915101,
+    "trial_number": 78,
+    "params": {
+      "iterations": 3500,
+      "learning_rate": 0.00939644373660266,
+      "depth": 7,
+      "l2_leaf_reg": 5.194821681770328,
+      "random_strength": 0.18582514949909737,
+      "border_count": 32,
+      "rsm": 0.9653350184387666,
+      "one_hot_max_size": 4,
+      "model_size_reg": 1.1496977945862539
+    }
+  },
+  {
+    "rank": 5,
+    "roc_auc": 0.8015687399122439,
+    "trial_number": 92,
+    "params": {
+      "iterations": 3100,
+      "learning_rate": 0.00892588824209754,
+      "depth": 6,
+      "l2_leaf_reg": 5.535104056466277,
+      "random_strength": 0.015284585168787128,
+      "border_count": 34,
+      "rsm": 0.9845179353399408,
+      "one_hot_max_size": 2,
+      "model_size_reg": 0.19323118314784016
+    }
+  }
+]
