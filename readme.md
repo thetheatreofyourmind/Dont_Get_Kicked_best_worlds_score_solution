@@ -9,7 +9,7 @@
 
 ## 1. Overview
 
-Solution for the Kaggle competition **Don't Get Kicked!**: predict whether a car bought at an auction is a "kick" (a bad buy, `IsBadBuy`). The repository contains four model families, a shared preprocessing layer, tools to tune / train / save / reuse everything, and standalone Kaggle notebooks.
+Solution for the Kaggle competition **Don't Get Kicked!**: predict whether a car bought at an auction is a kicked (a bad buy, `IsBadBuy`). The repository contains four model families, a shared preprocessing layer, tools to tune / train / save / reuse everything, and standalone Kaggle notebooks.
 
 ### Results
 
@@ -141,7 +141,7 @@ Training scripts take `model_ranks` (which tuned configs to use) and `est_coefs`
 
 ## 1. О проекте
 
-Решение соревнования Kaggle **Don't Get Kicked!**: нужно предсказать, окажется ли автомобиль, купленный на аукционе, «киком» (неудачной покупкой, `IsBadBuy`). В репозитории четыре семейства моделей, общий слой предобработки, инструменты для тюнинга, обучения, сохранения и повторного использования, а также самодостаточные ноутбуки для Kaggle.
+Решение соревнования Kaggle **Don't Get Kicked!**: нужно предсказать, окажется ли автомобиль, купленный на аукционе,  битой (неудачной покупкой, `IsBadBuy`). В репозитории четыре семейства моделей, общий слой предобработки, инструменты для тюнинга, обучения, сохранения и повторного использования, а также самодостаточные ноутбуки для Kaggle.
 
 ### Результаты
 
